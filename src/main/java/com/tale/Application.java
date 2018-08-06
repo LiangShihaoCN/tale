@@ -16,5 +16,4 @@ public class Application {
         TaleLoader.init(blade);
         blade.use(new CsrfMiddleware()).start(Application.class, args);
     }
-
 }
